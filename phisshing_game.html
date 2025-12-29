@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness Game</title>
+    <link rel="stylesheet" href="phishing_game_styles.css">
+</head>
+<body>
+
+    <!-- Start Menu -->
+    <div id="menu-screen">
+        <h1>Phishing Awareness Quiz</h1>
+        <label for="player-name">Enter Your Name:</label>
+        <input type="text" id="player-name" placeholder="Your Name">
+        <button id="start-game-btn">Start Game</button>
+        <h2>Leaderboard (Top 10)</h2>
+        <ol id="leaderboard"></ol>
+        <button id="reset-leaderboard-btn" class="small-button">Reset Leaderboard</button>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-container" class="hidden">
+        <h1>Phishing Awareness Quiz</h1>
+        <p id="question-text"></p>
+        <div id="answers" class="answers-grid"></div>
+        <p id="feedback"></p>
+        <button id="next-btn" class="hidden">Next Question</button>
+        <button id="exit-game-btn" class="small-button">Exit to Menu</button>
+    </div>
+
+    <!-- Game Over Screen -->
+    <div id="game-over-screen" class="hidden">
+        <div class="game-over-content">
+            <div class="game-over-left">
+                <h1>Game Over</h1>
+                <p id="final-score"></p>
+                <button id="back-to-menu">Back to Menu</button>
+            </div>
+            <div class="leaderboard-container">
+                <h2>🏆 Leaderboard (Top 10) 🏆</h2>
+                <ol id="game-over-leaderboard"></ol>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
