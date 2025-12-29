@@ -1,5 +1,7 @@
 # Phishing Game
 
+![Phishing Game Home Screen](phishing1.png)
+
 ## Overview
 
 The Phishing Game is an educational awareness game designed to help users learn how to identify phishing emails and messages.  
