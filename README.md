@@ -1,6 +1,6 @@
 # Phishing Game
 
-![Phishing Game Home Screen](phishing1.png)
+![Phishing Game Home Screen](images/phishing1.png)
 
 ## Overview
 

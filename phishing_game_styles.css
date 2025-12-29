@@ -1,6 +1,6 @@
 /* Set the background image for the entire page */
 body {
-    background-image: url('emails1.png'); /* Ensure the file is in the same folder */
+    background-image: url('images/emails1.png'); /* Ensure the file is in the same folder */
     background-size: cover; /* Covers the full screen */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating */
