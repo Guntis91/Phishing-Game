@@ -34,7 +34,7 @@ It provides a safe environment to practice recognizing common phishing technique
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/Guntis91/Phishing-Game.git
+git clone https://github.com/Guntis91/Phishing-Game.git
 ```
 
 2. Open the project folder:
