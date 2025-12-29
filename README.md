@@ -1,63 +1,72 @@
+# Phishing Game
 
-\# Phishing Game 🎣
+## Overview
 
+The Phishing Game is an educational awareness game designed to help users learn how to identify phishing emails and messages.  
+It provides a safe environment to practice recognizing common phishing techniques.
 
+---
 
-This project is an educational phishing awareness game designed to help users learn how to identify phishing emails and messages.
+## Project Structure
 
+- `phishing_game.html`  
+  Main game file. Open this file to start the game.
 
+- `phishing_game_styles.css`  
+  Stylesheet used for the game layout and design.
 
-\## 📁 Project Structure
+- `scripts.js`  
+  Main game logic and functionality.
 
+- `questions.js`  
+  Contains phishing scenarios and questions.
 
+- `emails.png`, `emails1.png`, `phishing.png`  
+  Image assets used in the game.
 
-\- `phishing\_game.html` – Main game file (open this to play)
+---
 
-\- `phishing\_game\_styles.css` – Styling for the game
+## How to Use
 
-\- `scripts.js` – Main game logic
+### Option 1: Clone the Repository
 
-\- `questions.js` – Phishing questions and scenarios
-
-\- `emails.png`, `emails1.png`, `phishing.png` – Images used in the game
-
-
-
-\## ▶️ How to Use
-
-
-
-1\. Download or clone the repository:
-
-&nbsp;  ```bash
-
-&nbsp;  git clone https://github.com/Guntis91/Phishing-Game.git
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Guntis91/Phishing-Game.git
 ```
 
-2\. Open the folder:
+2. Open the project folder:
 ```bash
 cd Phishing-Game
-
 ```
-3\. Open the game:
 
-\- Double-click phishing_game.html
+3. Open phishing_game.html in any web browser:
 
-\- OR right-click → Open with browser
+- Double-click the file
 
-No server or installation is required. The game runs fully in the browser.
+- Or right-click and choose Open with browser
 
-🎯 Purpose
+### Option 2: Download as ZIP
 
-This game is for learning and awareness only.
-It helps users practice recognizing common phishing techniques in a safe environment.
+1. Download the repository as a ZIP file from GitHub.
 
-🛠️ Technologies Used
+2. Extract the ZIP file.
 
-\- HTML
+3. Open phishing_game.html in any web browser.
 
-\- CSS
+No server or installation is required.
+The game runs entirely in the browser.
 
-\- JavaScript
-=======
+## Purpose
+
+This project is intended for educational and awareness purposes only.
+It helps users improve their ability to recognize phishing attempts in a safe and controlled environment.
+
+## Technologies Used
+
+- HTML
+
+- CSS
+
+- JavaScript
+
