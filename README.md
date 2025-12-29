@@ -33,7 +33,7 @@ It provides a safe environment to practice recognizing common phishing technique
 ### Option 1: Clone the Repository
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/Guntis91/Phishing-Game.git
 ```
 
